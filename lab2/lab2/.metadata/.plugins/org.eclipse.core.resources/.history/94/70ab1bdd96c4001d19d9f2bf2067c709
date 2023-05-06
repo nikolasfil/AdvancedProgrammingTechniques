@@ -1,0 +1,12 @@
+package gr.upatras.junit.first;
+
+public class MyMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		myClass m = new MyClass();
+		int result = m.multiply(10, 5);
+		System.out.println("Result is "+result);
+	}
+
+}

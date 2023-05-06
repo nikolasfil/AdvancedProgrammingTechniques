@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/media/figaro/DATA/nick/Documents/A ΣΧΟΛΗ/8ο εξάμηνο/Προηγμενες Τεχνικες Προγραμματισμου (2021-2022) (EE1060)/Εγγραφα/2022-2023/Εργαστηριο/lab2/.metadata/.plugins/org.eclipse.jdt.core
+3641596957.index
+1865797976.index
+1754469350.index
