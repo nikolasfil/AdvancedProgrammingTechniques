@@ -60,7 +60,7 @@ public class CategoryService implements ICategoryService {
     public Category editCategory(Category catToAdd) {
         Category editCat = findById(catToAdd.getId());
         editCat.getProducts().clear();
-        if (editCat != null) {
+        {
             editCat.setName(catToAdd.getName());
             for (Product p : catToAdd.getProducts()) {
                 Product productToAdd = productService.findById(p.getId());
@@ -70,7 +70,6 @@ public class CategoryService implements ICategoryService {
             }
             return editCat;
         }
-        return null;
     }
 
     @Override
