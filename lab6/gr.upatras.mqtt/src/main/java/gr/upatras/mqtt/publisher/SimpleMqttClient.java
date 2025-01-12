@@ -32,12 +32,12 @@ public class SimpleMqttClient implements MqttCallback {
     // subscriber or both
 
     static final Boolean subscriber = true;
-    static final Boolean publisher = true;
+    static final Boolean publisher = false;
 
     private Random rnd = new Random();
 
     private static final Logger log = LoggerFactory.getLogger(SimpleMqttClient.class);
-    public static final String TOPIC = "grupatras/lab/engine/temperature";
+    public static final String TOPIC = "grupatras/lab/engine/up1072754";
 
     /**
      *
